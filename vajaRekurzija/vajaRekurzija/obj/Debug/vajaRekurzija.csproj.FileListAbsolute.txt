@@ -1,0 +1,7 @@
+D:\pro2021\vajaRekurzija\vajaRekurzija\bin\Debug\vajaRekurzija.exe.config
+D:\pro2021\vajaRekurzija\vajaRekurzija\bin\Debug\vajaRekurzija.exe
+D:\pro2021\vajaRekurzija\vajaRekurzija\bin\Debug\vajaRekurzija.pdb
+D:\pro2021\vajaRekurzija\vajaRekurzija\obj\Debug\vajaRekurzija.csproj.AssemblyReference.cache
+D:\pro2021\vajaRekurzija\vajaRekurzija\obj\Debug\vajaRekurzija.csproj.CoreCompileInputs.cache
+D:\pro2021\vajaRekurzija\vajaRekurzija\obj\Debug\vajaRekurzija.exe
+D:\pro2021\vajaRekurzija\vajaRekurzija\obj\Debug\vajaRekurzija.pdb
