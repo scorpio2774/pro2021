@@ -15,7 +15,7 @@ namespace vajaRekurzija
             Console.WriteLine("Iterativno "+ potencaIterativno(10));
             Console.WriteLine("Rekurzija " + potencaRekurzivno(10));
             Console.WriteLine(vnos+". fibonaccijevo število je " + fibonacciStevilo(vnos));
-            */
+            
             Console.WriteLine("Naloga 3");
             int vnos1 = int.Parse(Console.ReadLine());
 
@@ -30,6 +30,8 @@ namespace vajaRekurzija
             int vnos3 = int.Parse(Console.ReadLine());
 
             Console.WriteLine(nal5(vnos3));
+
+            */
 
             Console.ReadLine();
         }
@@ -58,7 +60,7 @@ namespace vajaRekurzija
         }
 
 
-        /*      Podano je zaporedje: 2, 2, 3, 5, 14, 69, 965, ...
+        /*      3. Podano je zaporedje: 2, 2, 3, 5, 14, 69, 965, ...
                 a.Z uporabo rekurzije napišite metodo, ki vrne n-ti element zaporedja.
                 b.Napišite sled izvajanja programa za klic test.clen(2) in test.clen(5)!
                 Upoštevajte, da je zaporedje definirano:
@@ -75,7 +77,7 @@ namespace vajaRekurzija
         }
 
 
-                /*4. Podano je zaporedje: 2, 8, 26, 80, 242, ...
+        /*4. Podano je zaporedje: 2, 8, 26, 80, 242, ...
                 a.Z uporabo rekurzije napišite metodo, ki vrne n-ti element zaporedja.
                 b.Napišite sled izvajanja programa za klic test.clen(2) in test.clen(5).
                 Upoštevajte, da je zaporedje definirano:
@@ -90,13 +92,12 @@ namespace vajaRekurzija
             return 3 * nal4(n - 1) + 2;
         }
 
-        /*
-                5. Podano je zaporedje:: 1, 2, 5, 12, 29, …
-                a.Z uporabo rekurzije napišite metodo, ki vrne n-ti element zaporedja.
-                Upoštevajte, da je zaporedje definirano:
-                a1 = 1
-                a2 = 2
-                a(n) = a(n-1)*2 + a(n-2)
+        /* 5. Podano je zaporedje:: 1, 2, 5, 12, 29, …
+           a.Z uporabo rekurzije napišite metodo, ki vrne n-ti element zaporedja.
+           Upoštevajte, da je zaporedje definirano:
+           a1 = 1
+           a2 = 2
+           a(n) = a(n-1)*2 + a(n-2)
         */
 
 
@@ -110,6 +111,13 @@ namespace vajaRekurzija
             }
             return (nal5(n - 1) * 2 + nal5(n - 2));
         }
+
+
+
+
+
+
+
 
 
     }
