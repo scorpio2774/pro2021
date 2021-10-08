@@ -10,16 +10,27 @@ namespace vajaRekurzija
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Vnesi katero fibbonacijevo število po vrsti bi rad/a izvedel/a ");
+            /*Console.WriteLine("Vnesi katero fibbonacijevo število po vrsti bi rad/a izvedel/a ");
             int vnos = int.Parse(Console.ReadLine());
             Console.WriteLine("Iterativno "+ potencaIterativno(10));
             Console.WriteLine("Rekurzija " + potencaRekurzivno(10));
             Console.WriteLine(vnos+". fibonaccijevo število je " + fibonacciStevilo(vnos));
-
+            */
             Console.WriteLine("Naloga 3");
             int vnos1 = int.Parse(Console.ReadLine());
 
-            Console.WriteLine();
+            Console.WriteLine(nal3(vnos1));
+
+            Console.WriteLine("Naloga 4");
+            int vnos2 = int.Parse(Console.ReadLine());
+
+            Console.WriteLine(nal4(vnos2));
+
+            Console.WriteLine("Naloga 5");
+            int vnos3 = int.Parse(Console.ReadLine());
+
+            Console.WriteLine(nal5(vnos3));
+
             Console.ReadLine();
         }
 
@@ -60,7 +71,7 @@ namespace vajaRekurzija
             if (n == 1 || n==2) { 
                 return 2; 
             }
-            return nal3(n - 2) + nal3(n - 1)-1;
+            return (nal3(n - 2) * nal3(n - 1)-1);
         }
 
 
@@ -72,6 +83,13 @@ namespace vajaRekurzija
                 a(n) = 3 * a(n-1) + 2
                 */
 
+        static int nal4(int n) {
+            if (n == 1) { 
+                return 2; 
+            }
+            return 3 * nal4(n - 1) + 2;
+        }
+
         /*
                 5. Podano je zaporedje:: 1, 2, 5, 12, 29, …
                 a.Z uporabo rekurzije napišite metodo, ki vrne n-ti element zaporedja.
@@ -80,5 +98,19 @@ namespace vajaRekurzija
                 a2 = 2
                 a(n) = a(n-1)*2 + a(n-2)
         */
+
+
+        static int nal5(int n)
+        {
+            if (n == 1){
+                return 1;
+            }
+            if (n == 2) {
+                return 2;
+            }
+            return (nal5(n - 1) * 2 + nal5(n - 2));
+        }
+
+
     }
 }
