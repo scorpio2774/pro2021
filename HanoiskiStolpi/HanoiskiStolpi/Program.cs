@@ -25,5 +25,7 @@ namespace HanoiskiStolpi
             Premakni(n - 1, pomozni, koncni, zacetni); //2. del iz b -> c, pomagaj si z a
 
         }
+
+
     }
 }
