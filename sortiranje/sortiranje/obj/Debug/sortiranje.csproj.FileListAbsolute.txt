@@ -1,0 +1,6 @@
+D:\pro2021\sortiranje\sortiranje\bin\Debug\sortiranje.exe.config
+D:\pro2021\sortiranje\sortiranje\bin\Debug\sortiranje.exe
+D:\pro2021\sortiranje\sortiranje\bin\Debug\sortiranje.pdb
+D:\pro2021\sortiranje\sortiranje\obj\Debug\sortiranje.csproj.CoreCompileInputs.cache
+D:\pro2021\sortiranje\sortiranje\obj\Debug\sortiranje.exe
+D:\pro2021\sortiranje\sortiranje\obj\Debug\sortiranje.pdb
