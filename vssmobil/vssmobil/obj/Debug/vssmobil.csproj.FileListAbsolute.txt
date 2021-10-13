@@ -1,0 +1,7 @@
+D:\pro2021\vssmobil\vssmobil\bin\Debug\vssmobil.exe.config
+D:\pro2021\vssmobil\vssmobil\bin\Debug\vssmobil.exe
+D:\pro2021\vssmobil\vssmobil\bin\Debug\vssmobil.pdb
+D:\pro2021\vssmobil\vssmobil\obj\Debug\vssmobil.csproj.AssemblyReference.cache
+D:\pro2021\vssmobil\vssmobil\obj\Debug\vssmobil.csproj.CoreCompileInputs.cache
+D:\pro2021\vssmobil\vssmobil\obj\Debug\vssmobil.exe
+D:\pro2021\vssmobil\vssmobil\obj\Debug\vssmobil.pdb
