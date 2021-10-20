@@ -41,6 +41,25 @@ namespace Strukture
                 r.z = levi * desni.z;
                 return r;
             }
+
+            public static Vektor operator *(Vektor levi, double desni)
+            {
+                Vektor r;
+                return desni * levi;
+            }
+
+            public static double operator *(Vektor v, Vektor w) {
+                return v.x * w.x + v.y * w.y + v.z * w.z;
+            }
+
+            public static bool operator ==(Vektor v, Vektor w) {
+                return v.x == w.x && v.y == w.y && v.z == w.z;
+            }
+
+            public static bool operator !=(Vektor v, Vektor w) {
+                return !(v == w);
+            }
+
         }
         static void Main(string[] args)
         {
@@ -56,7 +75,9 @@ namespace Strukture
             Console.WriteLine(v2.ToString());
             Vektor v3 = v1 + v2;
             Console.WriteLine(v3.ToString());
-            Console.WriteLine((7*v1).ToString());
+            Console.WriteLine((v1 * 7).ToString());
+            Console.WriteLine((v1 * v2).ToString());
+            Console.WriteLine("v1==v2? " + (v1 == v2));
 
 
             Console.ReadLine();
