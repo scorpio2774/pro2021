@@ -17,7 +17,7 @@ namespace vssmobil
         public void BeleziPlacilo(decimal placano) {
             stanje -= placano;
         }
-        public void BeleziKlic(int minute, int tip) {
+        public virtual void BeleziKlic(int minute, int tip) {
             switch (tip) {
                 case 1: //stacionarno 
                     stanje += minute * 0.2m;

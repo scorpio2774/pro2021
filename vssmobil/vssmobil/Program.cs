@@ -23,6 +23,11 @@ namespace vssmobil
 
             Kupec[] vsi = new Kupec[3]; //tabela treh kupcev tipa kupec
             vsi[0] = new Kupec();
+            vsi[1] = new Kupec60();
+            vsi[1].Ime = "Maja Novak";
+            vsi[1].BeleziKlic(70, 2);
+            Console.WriteLine(vsi[1].ToString());
+
 
 
             Console.ReadLine();
