@@ -1,0 +1,10 @@
+D:\pro2021\Racunanje\Racunanje\bin\Debug\Racunanje.exe.config
+D:\pro2021\Racunanje\Racunanje\bin\Debug\Racunanje.exe
+D:\pro2021\Racunanje\Racunanje\bin\Debug\Racunanje.pdb
+D:\pro2021\Racunanje\Racunanje\obj\Debug\Racunanje.csproj.AssemblyReference.cache
+D:\pro2021\Racunanje\Racunanje\obj\Debug\Racunanje.Form1.resources
+D:\pro2021\Racunanje\Racunanje\obj\Debug\Racunanje.Properties.Resources.resources
+D:\pro2021\Racunanje\Racunanje\obj\Debug\Racunanje.csproj.GenerateResource.cache
+D:\pro2021\Racunanje\Racunanje\obj\Debug\Racunanje.csproj.CoreCompileInputs.cache
+D:\pro2021\Racunanje\Racunanje\obj\Debug\Racunanje.exe
+D:\pro2021\Racunanje\Racunanje\obj\Debug\Racunanje.pdb
