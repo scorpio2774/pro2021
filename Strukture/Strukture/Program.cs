@@ -10,6 +10,26 @@ namespace Strukture
     {
         struct Vektor { //vrednostni tip
             public double x, y, z;
+
+            public double this[int i] {
+                get {
+                    switch (i) {
+                        case 0: return x;
+                        case 1: return y;
+                        case 2: return z;
+                        default: throw new IndexOutOfRangeException("Napačen index");
+                    }
+                }
+                set {
+                    switch (i) {
+                        case 0: x = value; break;
+                        case 1: y = value; break;
+                        case 2: z = value; break;
+                        default: throw new IndexOutOfRangeException("Napačen index");
+                    }
+                }
+            }
+
             public override string ToString() //deduje od object
             {
                 return "(" + x + ", " + y + ", " + z + ")"; 
@@ -78,7 +98,12 @@ namespace Strukture
             Console.WriteLine((v1 * 7).ToString());
             Console.WriteLine((v1 * v2).ToString());
             Console.WriteLine("v1==v2? " + (v1 == v2));
+            //indeksiranje
 
+            for (int k = 0; k < 3; k++) {
+                v1[k] = 2 * k;
+            }
+            Console.WriteLine(v1.ToString());
 
             Console.ReadLine();
         }
