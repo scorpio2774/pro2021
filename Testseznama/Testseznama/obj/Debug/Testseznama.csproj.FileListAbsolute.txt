@@ -1,0 +1,10 @@
+D:\pro2021\Testseznama\Testseznama\bin\Debug\Testseznama.exe.config
+D:\pro2021\Testseznama\Testseznama\bin\Debug\Testseznama.exe
+D:\pro2021\Testseznama\Testseznama\bin\Debug\Testseznama.pdb
+D:\pro2021\Testseznama\Testseznama\obj\Debug\Testseznama.csproj.AssemblyReference.cache
+D:\pro2021\Testseznama\Testseznama\obj\Debug\Testseznama.Form1.resources
+D:\pro2021\Testseznama\Testseznama\obj\Debug\Testseznama.Properties.Resources.resources
+D:\pro2021\Testseznama\Testseznama\obj\Debug\Testseznama.csproj.GenerateResource.cache
+D:\pro2021\Testseznama\Testseznama\obj\Debug\Testseznama.csproj.CoreCompileInputs.cache
+D:\pro2021\Testseznama\Testseznama\obj\Debug\Testseznama.exe
+D:\pro2021\Testseznama\Testseznama\obj\Debug\Testseznama.pdb
