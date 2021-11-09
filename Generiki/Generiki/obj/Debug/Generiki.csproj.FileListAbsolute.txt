@@ -1,0 +1,7 @@
+D:\pro2021\Generiki\Generiki\bin\Debug\Generiki.exe.config
+D:\pro2021\Generiki\Generiki\bin\Debug\Generiki.exe
+D:\pro2021\Generiki\Generiki\bin\Debug\Generiki.pdb
+D:\pro2021\Generiki\Generiki\obj\Debug\Generiki.csproj.CoreCompileInputs.cache
+D:\pro2021\Generiki\Generiki\obj\Debug\Generiki.exe
+D:\pro2021\Generiki\Generiki\obj\Debug\Generiki.pdb
+D:\pro2021\Generiki\Generiki\obj\Debug\Generiki.csproj.AssemblyReference.cache
