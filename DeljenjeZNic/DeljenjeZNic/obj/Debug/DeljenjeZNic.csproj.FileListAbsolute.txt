@@ -1,0 +1,10 @@
+D:\pro2021\DeljenjeZNic\DeljenjeZNic\bin\Debug\DeljenjeZNic.exe.config
+D:\pro2021\DeljenjeZNic\DeljenjeZNic\bin\Debug\DeljenjeZNic.exe
+D:\pro2021\DeljenjeZNic\DeljenjeZNic\bin\Debug\DeljenjeZNic.pdb
+D:\pro2021\DeljenjeZNic\DeljenjeZNic\obj\Debug\DeljenjeZNic.csproj.AssemblyReference.cache
+D:\pro2021\DeljenjeZNic\DeljenjeZNic\obj\Debug\DeljenjeZNic.Form1.resources
+D:\pro2021\DeljenjeZNic\DeljenjeZNic\obj\Debug\DeljenjeZNic.Properties.Resources.resources
+D:\pro2021\DeljenjeZNic\DeljenjeZNic\obj\Debug\DeljenjeZNic.csproj.GenerateResource.cache
+D:\pro2021\DeljenjeZNic\DeljenjeZNic\obj\Debug\DeljenjeZNic.csproj.CoreCompileInputs.cache
+D:\pro2021\DeljenjeZNic\DeljenjeZNic\obj\Debug\DeljenjeZNic.exe
+D:\pro2021\DeljenjeZNic\DeljenjeZNic\obj\Debug\DeljenjeZNic.pdb
