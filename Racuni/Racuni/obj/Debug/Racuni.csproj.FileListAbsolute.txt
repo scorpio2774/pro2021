@@ -1,0 +1,6 @@
+D:\pro2021\Racuni\Racuni\bin\Debug\Racuni.exe.config
+D:\pro2021\Racuni\Racuni\bin\Debug\Racuni.exe
+D:\pro2021\Racuni\Racuni\bin\Debug\Racuni.pdb
+D:\pro2021\Racuni\Racuni\obj\Debug\Racuni.csproj.CoreCompileInputs.cache
+D:\pro2021\Racuni\Racuni\obj\Debug\Racuni.exe
+D:\pro2021\Racuni\Racuni\obj\Debug\Racuni.pdb
