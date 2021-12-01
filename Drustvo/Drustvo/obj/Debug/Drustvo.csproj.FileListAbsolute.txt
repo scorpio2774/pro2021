@@ -1,0 +1,13 @@
+D:\pro2021\Drustvo\Drustvo\bin\Debug\Drustvo.exe.config
+D:\pro2021\Drustvo\Drustvo\bin\Debug\Drustvo.exe
+D:\pro2021\Drustvo\Drustvo\bin\Debug\Drustvo.pdb
+D:\pro2021\Drustvo\Drustvo\obj\Debug\Drustvo.csproj.AssemblyReference.cache
+D:\pro2021\Drustvo\Drustvo\obj\Debug\Drustvo.Form1.resources
+D:\pro2021\Drustvo\Drustvo\obj\Debug\Drustvo.Properties.Resources.resources
+D:\pro2021\Drustvo\Drustvo\obj\Debug\Drustvo.csproj.GenerateResource.cache
+D:\pro2021\Drustvo\Drustvo\obj\Debug\Drustvo.csproj.CoreCompileInputs.cache
+D:\pro2021\Drustvo\Drustvo\obj\Debug\Drustvo.exe
+D:\pro2021\Drustvo\Drustvo\obj\Debug\Drustvo.pdb
+D:\pro2021\Drustvo\Drustvo\obj\Debug\Drustvo.Resource1.resources
+D:\pro2021\Drustvo\Drustvo\obj\Debug\Drustvo.GlavnoOkno.resources
+D:\pro2021\Drustvo\Drustvo\obj\Debug\Drustvo.Pregled.resources

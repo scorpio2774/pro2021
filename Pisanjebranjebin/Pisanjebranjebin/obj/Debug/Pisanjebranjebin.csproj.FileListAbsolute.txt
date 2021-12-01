@@ -1,0 +1,7 @@
+D:\pro2021\Pisanjebranjebin\Pisanjebranjebin\bin\Debug\Pisanjebranjebin.exe.config
+D:\pro2021\Pisanjebranjebin\Pisanjebranjebin\bin\Debug\Pisanjebranjebin.exe
+D:\pro2021\Pisanjebranjebin\Pisanjebranjebin\bin\Debug\Pisanjebranjebin.pdb
+D:\pro2021\Pisanjebranjebin\Pisanjebranjebin\obj\Debug\Pisanjebranjebin.csproj.AssemblyReference.cache
+D:\pro2021\Pisanjebranjebin\Pisanjebranjebin\obj\Debug\Pisanjebranjebin.csproj.CoreCompileInputs.cache
+D:\pro2021\Pisanjebranjebin\Pisanjebranjebin\obj\Debug\Pisanjebranjebin.exe
+D:\pro2021\Pisanjebranjebin\Pisanjebranjebin\obj\Debug\Pisanjebranjebin.pdb

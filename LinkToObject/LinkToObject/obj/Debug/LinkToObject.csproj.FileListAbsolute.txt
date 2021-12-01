@@ -1,0 +1,7 @@
+D:\pro2021\LinkToObject\LinkToObject\bin\Debug\LinkToObject.exe.config
+D:\pro2021\LinkToObject\LinkToObject\bin\Debug\LinkToObject.exe
+D:\pro2021\LinkToObject\LinkToObject\bin\Debug\LinkToObject.pdb
+D:\pro2021\LinkToObject\LinkToObject\obj\Debug\LinkToObject.csproj.AssemblyReference.cache
+D:\pro2021\LinkToObject\LinkToObject\obj\Debug\LinkToObject.csproj.CoreCompileInputs.cache
+D:\pro2021\LinkToObject\LinkToObject\obj\Debug\LinkToObject.exe
+D:\pro2021\LinkToObject\LinkToObject\obj\Debug\LinkToObject.pdb

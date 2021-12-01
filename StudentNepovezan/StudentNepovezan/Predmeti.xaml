@@ -1,0 +1,45 @@
+﻿<Window x:Class="StudentNepovezan.Predmeti"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:StudentNepovezan"
+        mc:Ignorable="d"
+        Title="Predmeti" Height="450" Width="800" Loaded="Window_Loaded">
+    <Window.Resources>
+        <local:ŠtudentNetDataSet x:Key="študentNetDataSet"/>
+        <CollectionViewSource x:Key="predmetViewSource" Source="{Binding Predmet, Source={StaticResource študentNetDataSet}}"/>
+        <CollectionViewSource x:Key="predmetOceneViewSource" Source="{Binding fk_Pr_oc, Source={StaticResource predmetViewSource}}"/>
+    </Window.Resources>
+    <Grid DataContext="{StaticResource predmetViewSource}">
+        <Grid x:Name="grid1" DataContext="{StaticResource predmetViewSource}" HorizontalAlignment="Left" Margin="343,316,0,0" VerticalAlignment="Top">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <Label Content="Id Predmeta:" Grid.Column="0" HorizontalAlignment="Left" Margin="3" Grid.Row="0" VerticalAlignment="Center"/>
+            <TextBox x:Name="idPredmetaTextBox" Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="3" Grid.Row="0" Text="{Binding IdPredmeta, Mode=OneWay}" VerticalAlignment="Center" Width="120"/>
+            <Label Content="Ime Predmeta:" Grid.Column="0" HorizontalAlignment="Left" Margin="3" Grid.Row="1" VerticalAlignment="Center"/>
+            <TextBox x:Name="imePredmetaTextBox" Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="3" Grid.Row="1" Text="{Binding ImePredmeta, Mode=TwoWay, NotifyOnValidationError=true, ValidatesOnExceptions=true}" VerticalAlignment="Center" Width="120"/>
+        </Grid>
+        <DataGrid x:Name="predmetDataGrid" AutoGenerateColumns="False" EnableRowVirtualization="True" ItemsSource="{Binding}" Margin="36,42,563,177" RowDetailsVisibilityMode="VisibleWhenSelected">
+            <DataGrid.Columns>
+                <DataGridTextColumn x:Name="idPredmetaColumn" Binding="{Binding IdPredmeta}" Header="Id Predmeta" IsReadOnly="True" Width="SizeToHeader"/>
+                <DataGridTextColumn x:Name="imePredmetaColumn" Binding="{Binding ImePredmeta}" Header="Ime Predmeta" Width="SizeToHeader"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <DataGrid x:Name="oceneDataGrid" AutoGenerateColumns="False" EnableRowVirtualization="True" ItemsSource="{Binding Source={StaticResource predmetOceneViewSource}}" Margin="424,42,87,177" RowDetailsVisibilityMode="VisibleWhenSelected">
+            <DataGrid.Columns>
+                <DataGridTextColumn x:Name="idOceneColumn" Binding="{Binding IdOcene}" Header="Id Ocene" IsReadOnly="True" Width="SizeToHeader"/>
+                <DataGridTextColumn x:Name="idŠtudentaColumn" Binding="{Binding IdŠtudenta}" Header="Id Študenta" Width="SizeToHeader"/>
+                <DataGridTextColumn x:Name="idPredmetaColumn1" Binding="{Binding idPredmeta}" Header="id Predmeta" Width="SizeToHeader"/>
+                <DataGridTextColumn x:Name="ocenaColumn" Binding="{Binding ocena}" Header="ocena" Width="SizeToHeader"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+    </Grid>
+</Window>

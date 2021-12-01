@@ -37,19 +37,23 @@ namespace StandardXML
             //    Console.WriteLine(a.Ime);
             //}
 
+
+            //jason
             //VsiSKupaj v = new VsiSKupaj();
             //string json = JsonConvert.SerializeObject(v, Formatting.Indented);
 
-            //FileStream fs = new FileStream("c:\\barbara\\liga.json", FileMode.Create);
+            //FileStream fs = new FileStream("liga.json", FileMode.Create);
             //StreamWriter s = new StreamWriter(fs);
             //s.Write(json);
             //s.Close();
-            //VsiSKupaj v = JsonConvert.DeserializeObject<VsiSKupaj>(
-            //    File.ReadAllText("c:\\barbara\\liga.json"));
-            //foreach (Moštvo a in v.liga)
-            //{
-            //    Console.WriteLine(a.Ime);
-            //}
+
+
+            VsiSKupaj v = JsonConvert.DeserializeObject<VsiSKupaj>(
+                File.ReadAllText("liga.json"));
+            foreach (Moštvo a in v.liga)
+            {
+                Console.WriteLine(a.Ime);
+            }
 
             Console.WriteLine("Konec");
             Console.ReadLine();
